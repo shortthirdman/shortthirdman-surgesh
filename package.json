@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "Swetank Mohanty (shortthirdman)",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "surge --domain https://shortthirdman.surge.sh",
     "prebuild": "rimraf dist",
     "ng": "ng",
     "start": "ng serve",

@@ -9,7 +9,7 @@ import { catchError, retry, finalize, tap } from 'rxjs/operators';
 })
 export class ProfileService {
 
-  private profileConfig: string = 'assets/profile.json';
+  private profileConfig: string = 'assets/private/profile.json';
   private cdnResource: string = 'https://cdn.jsdelivr.net/gh/shortthirdman/shortthirdman-surgesh/';
 
   constructor(private http: HttpClient) {}
