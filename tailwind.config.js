@@ -1,10 +1,17 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
+const enablePurge = process.env.ENABLE_PURGE || process.env.NODE_ENV === 'production' || true;
 
+if (enablePurge) {
+	console.log(`Purging of classes and styles is enabled.`);
+} else {
+	console.warn(`Purging is not enabled for TailwindCSS`);
+}
 module.exports = {
   purge: {
-	enabled: process.env.NODE_ENV === 'production',
+	enabled: enablePurge,
 	content: [
-        './src/**/*.{html,ts}',
+		'./src/**/*.html',
+		'./src/**/*.scss'
     ]
   },
   presets: [],
