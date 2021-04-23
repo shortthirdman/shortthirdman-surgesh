@@ -1,5 +1,7 @@
 # shortthirdman-surgesh
 
+[![GitHub license](https://img.shields.io/github/license/shortthirdman/shortthirdman-surgesh)](https://github.com/shortthirdman/shortthirdman-surgesh/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/shortthirdman/shortthirdman-surgesh)](https://github.com/shortthirdman/shortthirdman-surgesh/issues)
 [![wakatime](https://wakatime.com/badge/github/shortthirdman/shortthirdman-surgesh.svg)](https://wakatime.com/badge/github/shortthirdman/shortthirdman-surgesh)
 
 Swetank Mohanty (shortthirdman) Profile Portfolio
