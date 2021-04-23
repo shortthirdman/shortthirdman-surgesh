@@ -20,7 +20,8 @@
   },
   "keywords": [
     "surgesh",
-    "tailwindcss",
+    "bootstrap",
+    "resume",
     "profile",
     "portfolio"
   ],
@@ -39,10 +40,14 @@
     "@angular/platform-browser": "~11.2.5",
     "@angular/platform-browser-dynamic": "~11.2.5",
     "@angular/router": "~11.2.5",
-    "@tailwindcss/forms": "0.3.2",
-    "@tailwindcss/typography": "0.4.0",
+    "@fortawesome/fontawesome-free": "5.15.0",
+    "@fortawesome/free-brands-svg-icons": "5.15.0",
+    "@fortawesome/free-regular-svg-icons": "5.15.0",
+    "@fortawesome/free-solid-svg-icons": "5.15.0",
+    "@popperjs/core": "2.6.0",
+    "bootstrap": "4.6.0",
+    "jquery": "3.5.0",
     "rxjs": "~6.6.0",
-    "tailwindcss": "2.1.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
