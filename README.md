@@ -1,5 +1,7 @@
 # shortthirdman-surgesh
 
+[![wakatime](https://wakatime.com/badge/github/shortthirdman/shortthirdman-surgesh.svg)](https://wakatime.com/badge/github/shortthirdman/shortthirdman-surgesh)
+
 Swetank Mohanty (shortthirdman) Profile Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
