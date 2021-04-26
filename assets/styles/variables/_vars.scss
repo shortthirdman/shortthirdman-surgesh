@@ -1,0 +1,56 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap');
+
+// Font settings
+$font-body                  : 'Archivo', sans-serif; 
+$font-title                 : 'Archivo', sans-serif;
+$font-additional            : 'Merriweather', serif;
+
+$baseSystemFontSize         : 16px;
+
+$weight-400                 : 400; // regular
+$weight-500                 : 500; // medium
+$weight-600                 : 600; // semi bold
+$weight-700                 : 700; // bold
+
+// Colors
+$white-color                : #fff;
+$black-color                : #44566C;
+
+$gray-50-color              : #F5F6F7;
+$gray-100-color             : #F5F8F9; //bakup F8FAFB
+$gray-200-color             : #F0F0F6;
+$gray-300-color             : #8697A8;
+$gray-400-color             : #5F6F81;
+
+$tone-color                 : #304CFD; //blue
+$tone-additional-color      : #00F1E2; //aqua
+$tone-additional2-color     : #2CD5EF; //aqua dark
+
+$red-color                  : #FF3D57;
+
+// Gradien
+$gradient-1                 : linear-gradient(to right, rgba(0,129,255,1) 0%, rgba(63,160,255,1) 50%, rgba(0,69,255,1) 100%); // blue
+$gradient-2                 : linear-gradient(to right, rgba(0,129,255,1) 0%, rgba(0,69,255,1) 100%);                         // blue
+$gradient-3                 : linear-gradient(115.29deg, #FFF2E7 1.33%, #FFCADA 98.21%);                                      // peach
+$gradient-4                 : linear-gradient(115.29deg, #0DC8A9 1.33%, #32CBC8 98.21%);                                      // green
+$gradient-5                 : linear-gradient(135deg, rgba(155,225,93,1) 0%, rgba(0,217,166,1) 100%);
+
+// Dark sheme
+$dark-black-1               : #272333;
+$dark-black-2               : #302C40;
+$dark-black-3               : #2C283A;
+$absolute-black             : #000;
+
+$dark-tone-color            : #0D86FF;
+
+$gray-body                  : #DEDDE0;
+$gray-header                : #F1F2F4;
+
+// Border radius
+$border-rounded-10          : 10px;
+$border-rounded-16          : 16px;
+$border-rounded-20          : 20px;
+$border-rounded-30          : 30px;
+$border-rounded-48          : 48px;

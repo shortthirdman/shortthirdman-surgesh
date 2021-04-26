@@ -1,0 +1,41 @@
+{
+  "name": "vcard-shortthirdman",
+  "version": "1.0.0",
+  "description": "Swetank Mohanty (shortthirdman)",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "surge --domain https://shortthirdman.surge.sh",
+    "start": "",
+    "test": "",
+    "lint": ""
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shortthirdman/shortthirdman-surgesh.git"
+  },
+  "keywords": [
+    "surgesh",
+    "bootstrap",
+    "resume",
+    "profile",
+    "portfolio"
+  ],
+  "author": "Swetank Mohanty <swetank.mohanty@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shortthirdman/shortthirdman-surgesh/issues"
+  },
+  "homepage": "https://github.com/shortthirdman/shortthirdman-surgesh#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.0",
+    "@fortawesome/free-brands-svg-icons": "5.15.0",
+    "@fortawesome/free-regular-svg-icons": "5.15.0",
+    "@fortawesome/free-solid-svg-icons": "5.15.0",
+    "@popperjs/core": "2.6.0",
+    "bootstrap": "4.6.0",
+    "jquery": "3.5.0"
+  },
+  "devDependencies": {
+  }
+}
