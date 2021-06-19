@@ -1,4 +1,4 @@
-{
+ {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
     "analytics": "609175c9-0e39-4115-a755-8430f4d81a02"
@@ -40,7 +40,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+				"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+			]
           },
           "configurations": {
             "production": {

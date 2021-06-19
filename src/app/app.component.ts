@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { PrimeNGConfig } from 'primeng/api';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 
@@ -13,7 +14,8 @@ export class AppComponent implements OnInit {
     suppressScrollX: true
   };
 
-  constructor(private primengConfig: PrimeNGConfig) {
+  constructor(private primengConfig: PrimeNGConfig, private title: Title) {
+	this.title.setTitle('ShortThirdMan | Swetank Mohanty');
   }
   
   ngOnInit(): void {

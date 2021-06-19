@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  githubApiUrl: ''
+  githubApiUrl: 'https://shortthirdman.github.io/assets/data/profile.json'
 };
 
 /*
